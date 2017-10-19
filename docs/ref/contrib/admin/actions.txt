@@ -250,7 +250,7 @@ As you can see, the action is the simple part; all the complex logic would
 belong in your export view. This would need to deal with objects of any type,
 hence the business with the ``ContentType``.
 
-Writing this view is left as an exercise to the reader.
+Please refer to the examples in :meth:`django.contrib.admin.ModelAdmin.get_urls` for more details.
 
 .. _adminsite-actions:
 
